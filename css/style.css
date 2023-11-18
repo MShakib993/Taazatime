@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-container {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header {
+    width: 100%;
+    float: left;
+    background-color: white;
+    box-shadow: 0 0 12px -7px;
+}
+
+.header .nav-logo {
+    width: 5vw;
+    float: left;
+}
+
+.header .nav-logo img {
+    width: 100%;
+}
+
+.header .navigation-left {
+    width: 65vw;
+    float: left;
+}
+
+.header .navigation-left ul {
+    margin: 0 21px;
+    padding: 0;
+    
+}
+
+.header .navigation-left ul li {
+    list-style: none;
+    float: left;
+    width: 14%;
+    position: relative;
+    display: inline-block;
+}
+
+
+.header .navigation-left ul li a {
+    text-decoration: none;
+    padding-left: 14px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.header .navigation-left ul li img {
+    width: 100%;
+}
+
+.header .navigation-right {
+    width: 30vw;
+    float: left;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-notification {
+    padding-right: 18px;
+}
+
+.nav-notification img {
+    width: 20px;
+    display: inline-block;
+}
+
+
+.nav-search {
+    padding-right: 20px;
+}
+
+.nav-search img {
+    width: 20px;
+    display: inline-block;
+}
+
+.nav-screen-mode img {
+    width: 20px;
+    display: inline-block;
+}
+
+.box {
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+}
+
+.box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box ul li {
+    width: 31%;
+    list-style: none;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.box ul li img {
+    width: 100%;
+}
+
+.box ul li h3 {
+    position: absolute;
+    top: 8px;
+    right: 11px;
+    font-size: 10px;
+    background-color: #a73737;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+.box ul li h3:hover {
+    box-shadow: 0px 0px 4px 2px #a73737;
+    cursor: pointer;
+}
+
+.box .box-content {
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box .box-content img {
+    display: inline-block;
+    width: 25px;
+    border-radius: 20px;
+
+}
+
+.box .box-content h4 {
+    display: inline-block;
+
+}
+
+.box .box-content h5 {
+    display: inline-block;
+    font-weight: 100;
+    padding-left: 10px;
+}
