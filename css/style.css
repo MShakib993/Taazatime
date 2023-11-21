@@ -48,6 +48,22 @@
     display: inline-block;
 }
 
+.header .navigation-left  ul li .rectangle{
+    position: relative;
+    z-index: 3;
+    background-color: blue;
+    margin-top: 5px;
+}
+
+.header .navigation-left  ul li:hover .rectangle{
+    transform: translatex(1em);
+    transition: transform 0.5s ease;
+    width: 70px;
+    height: 3px;
+}
+
+
+
 
 .header .navigation-left ul li a {
     text-decoration: none;
